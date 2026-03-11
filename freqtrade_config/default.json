@@ -1,0 +1,53 @@
+{
+  "max_open_trades": 3,
+  "stake_currency": "USDT",
+  "dry_run": true,
+  "dry_run_wallet": 10000,
+  "cancel_open_orders_on_exit": false,
+  "trading_mode": "spot",
+  "margin_mode": "",
+  "amend_last_stake_amount": false,
+  "exchange": {
+    "name": "binance",
+    "key": "",
+    "secret": "",
+    "pair_whitelist": [
+      "BTC/USDT",
+      "ETH/USDT",
+      "BNB/USDT",
+      "ADA/USDT"
+    ],
+    "pair_blacklist": []
+  },
+  "stake_amount": "unlimited",
+  "fiat_display_currency": "USD",
+  "telegram": {
+    "enabled": false,
+    "token": "",
+    "chat_id": ""
+  },
+  "api_server": {
+    "enabled": true,
+    "listen_ip_address": "0.0.0.0",
+    "listen_port": 8080,
+    "verbosity": "info",
+    "enable_openapi": true,
+    "jwt_secret_key": "your-secret-key"
+  },
+  "db_url": "sqlite:///user_data/tradesv3.sqlite",
+  "user_data_dir": "user_data",
+  "datadir": "user_data/data",
+  "initial_state": "running",
+  "fee_open_cost": 0.0025,
+  "fee_open_currency": "BTC",
+  "fee_close_cost": 0.0025,
+  "fee_close_currency": "BTC",
+  "fee_time_in_force": {},
+  "exchange_margins": [],
+  "logfile": "logs/freqtrade.log",
+  "log_file_level": "info",
+  "log_file_max_size": 10485760,
+  "log_file_max_backup_count": 5,
+  "verbosity": "info",
+  "version": 1
+}

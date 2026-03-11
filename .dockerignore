@@ -1,0 +1,48 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+LICENSE
+ROADMAP.md
+CONTRIBUTING.md
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.egg-info
+.Python
+venv/
+env/
+.venv
+
+# Testing
+.pytest_cache
+.coverage
+htmlcov/
+
+# Git workflows
+.github
+
+# Misc
+CI
+test
+tests
+*.tmp
+.cache
